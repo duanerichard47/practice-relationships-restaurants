@@ -26,8 +26,9 @@ class Customer:
         review = Review(self, restaurant, rating)
         self.reviews.append(review)
         return self.reviews
+      # the customer is in self
 
     def review_count(self):
-            # len(self.reviews) == 1  got this wrong
+            # len(self.reviews) == 1  got this wrong returns T or F
             # return self.reviews
         return len(self.reviews)
